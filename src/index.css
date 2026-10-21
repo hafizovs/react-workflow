@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+@import '@xyflow/react/dist/style.css';
+
+:root {
+  --background: #f8fafc;
+  --foreground: #334155;
+  --card: #ffffff;
+  --border: #e2e8f0;
+  --primary: #2563eb;
+  --muted: #f1f5f9;
+
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: var(--foreground);
+  background: var(--background);
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
